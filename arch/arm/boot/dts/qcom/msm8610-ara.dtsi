@@ -527,7 +527,7 @@
 		qcom,rpull-up-kohm = <100>;
 		qcom,vref-batt-therm = <1800000>;
 
-		/include/ "batterydata-BV5S-1800mAh.dtsi"
+		#include "batterydata-BV5S-1800mAh.dtsi"
 	};
 };
 
